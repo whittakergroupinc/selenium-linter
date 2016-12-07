@@ -6,7 +6,3 @@
 <a id=""></a>
 
 <input class="form-control custom-form-input" name="csv_file" type="file" id="" multiple="" required></input>
-
-<a(?![^>]+href).*?>(.*?)</a>
-<php()[\s\S]*?>([\s\S]*?)
-<\?php()[\s\S]*?([\s\S]*?)\?>

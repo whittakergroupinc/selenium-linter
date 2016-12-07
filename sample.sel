@@ -1,0 +1,12 @@
+<div class="btn btn-primary form-control custom-form-input file-upload-btn" id="file-wrapper">
+<span class="glyphicon glyphicon-plus glyphicon-button pull-left"></span>
+<span class="pr25">add file(s)</span>
+<input class="form-control custom-form-input" name="csv_file" type="file" multiple="" required></input>
+</div>
+<a id=""></a>
+
+<input class="form-control custom-form-input" name="csv_file" type="file" id="" multiple="" required></input>
+
+<a(?![^>]+href).*?>(.*?)</a>
+<php()[\s\S]*?>([\s\S]*?)
+<\?php()[\s\S]*?([\s\S]*?)\?>

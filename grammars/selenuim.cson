@@ -1,0 +1,59 @@
+'scopeName': 'source.selenuim'
+'name': 'Selenium'
+'fileTypes': [
+  'htm',
+  'html',
+  'shtml',
+  'tmpl',
+  'tpl',
+  'xhtml',
+  'jsp',
+  'sel'
+]
+'patterns': [
+  {
+    'begin': '<input(?![^>]+id).*?>'
+    'beginCaptures':
+      '1':
+        'name': 'punctuation.definition.tag.begin.html'
+      '2':
+        'name': 'entity.name.tag.block.any.html.angular'
+    'end': '(>)'
+    'endCaptures':
+      '1':
+        'name': 'punctuation.definition.tag.end.html'
+    'name': 'meta.tag.block.any.html'
+  }
+]
+
+
+
+# 'scopeName': 'source.selenuim'
+# 'name': 'Selenuim'
+# 'fileTypes': ['sel']
+# 'patterns': [
+#     {
+#         'match': '<input(?![^>]+id).*?>'
+#         'name': 'constant.input.id'
+#     },
+#     {
+#         'match': '<table(?![^>]+id).*?>'
+#         'name': 'constant.table.id'
+#     },
+#     {
+#         'match': '<button(?![^>]+id).*?>'
+#         'name': 'constant.button.id'
+#     },
+#     {
+#         'match': '<form(?![^>]+id).*?>'
+#         'name': 'constant.form.id'
+#     },
+#     {
+#         'match': '<textarea(?![^>]+id).*?>'
+#         'name': 'constant.textarea.id'
+#     },
+#     {
+#         'match': '<select(?![^>]+id).*?>'
+#         'name': 'constant.input.id'
+#     }
+# ]
